@@ -2,10 +2,9 @@ import FloatingNavbar from "./components/FloatingNavbar";
 import HeroSection from "./components/HeroSection";
 import HabitsShowcase from "./components/HabitsShowcase";
 import BentoFeatures from "./components/BentoFeatures";
-import SocialProofCards from "./components/SocialProofCards";
+import EventSection from "./components/EventSection";
 import EventsShowcase from "./components/EventsShowcase";
-import MetricsSection from "./components/MetricsSection";
-import AISmartAssist from "./components/AISmartAssist";
+import GlobeSection from "./components/GlobeSection";
 import TestimonialsGrid from "./components/TestimonialsGrid";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
@@ -30,10 +29,9 @@ export default function Home() {
         <HeroSection />
         <HabitsShowcase />
         <BentoFeatures />
-        <SocialProofCards />
+        <EventSection />
         <EventsShowcase />
-        <MetricsSection />
-        <AISmartAssist />
+        <GlobeSection />
         <TestimonialsGrid />
         <FinalCTA />
         <Footer />
