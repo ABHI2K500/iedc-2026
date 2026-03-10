@@ -83,7 +83,7 @@ export default function EventsShowcase() {
     };
 
     return (
-        <section className="py-20 md:py-32 overflow-x-clip">
+        <section className="pt-0 pb-20 md:pb-32 overflow-x-clip">
             <div className="max-w-6xl mx-auto px-6">
                 {/* Header */}
                 <motion.div
@@ -92,7 +92,7 @@ export default function EventsShowcase() {
                     whileInView="animate"
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
-                    className="text-center mb-16"
+                    className="text-center mb-10"
                 >
                     <span className="inline-block bg-white/40 backdrop-blur-xl border border-white/20 text-text-muted text-xs font-medium px-3.5 py-1.5 rounded-full mb-4">
                         Our Events
