@@ -229,7 +229,8 @@ export const execomHistory: ExecomData[] = [
                 image: "/execom/24-25/liya.webp",
                 linkedin: "https://www.linkedin.com/in/liya-joseph2123/",
                 email: "#",
-                letter: "L"
+                letter: "L",
+                bio: "",
             },
             {
                 name: "Rajat Sandeep",
@@ -237,7 +238,8 @@ export const execomHistory: ExecomData[] = [
                 image: "/execom/24-25/RAJAT_CTO.webp",
                 linkedin: "https://www.linkedin.com/in/rajatsandeepsen/",
                 email: "#",
-                letter: "R"
+                letter: "R",
+                bio: "",
             },
             {
                 name: "Alina Tresa Johnson",
@@ -245,7 +247,8 @@ export const execomHistory: ExecomData[] = [
                 image: "/execom/24-25/ALINA_COO.webp",
                 linkedin: "https://www.linkedin.com/in/alina-tresa-johnson-525a5b27b/",
                 email: "#",
-                letter: "A"
+                letter: "A",
+                bio: "",
             },
             {
                 name: "Goutham Sreeram S B",
@@ -253,7 +256,8 @@ export const execomHistory: ExecomData[] = [
                 image: "/execom/24-25/goutham.webp",
                 linkedin: "https://www.linkedin.com/in/goutham-sreeram-sb-2b7661241/",
                 email: "#",
-                letter: "C"
+                letter: "C",
+                bio: "",
             },
             {
                 name: "Alvin Dennis",
@@ -261,7 +265,8 @@ export const execomHistory: ExecomData[] = [
                 image: "/execom/24-25/ALVIN_CFO.webp",
                 linkedin: "https://www.linkedin.com/in/alvindennis/",
                 email: "#",
-                letter: "A"
+                letter: "A",
+                bio: "",
             },
             {
                 name: "Ayush Krishnan",
@@ -269,7 +274,8 @@ export const execomHistory: ExecomData[] = [
                 image: "/execom/24-25/AYUSH_CMO.webp",
                 linkedin: "https://www.linkedin.com/in/ayushkrishnanu/",
                 email: "#",
-                letter: "A"
+                letter: "A",
+                bio: "",
             },
             {
                 name: "Jibin Gigi",
@@ -277,7 +283,8 @@ export const execomHistory: ExecomData[] = [
                 image: "/execom/24-25/AYUSH_CMO.webp",
                 linkedin: "https://www.linkedin.com/in/404-jibin-gigi/",
                 email: "#",
-                letter: "J"
+                letter: "J",
+                bio: "",
             },
             {
                 name: "Aibel Bin Zachariah",
@@ -285,7 +292,8 @@ export const execomHistory: ExecomData[] = [
                 image: "/execom/24-25/AIBEL_CVO.webp",
                 linkedin: "https://www.linkedin.com/in/aibel-bin-zacariah-677660226/",
                 email: "#",
-                letter: "A"
+                letter: "A",
+                bio: "",
             },
 
         ],
@@ -479,43 +487,64 @@ export const execomHistory: ExecomData[] = [
                 name: "Arun Alex",
                 role: "CEO",
                 email: "#",
-                letter: "A"
+                letter: "A",
+                bio: "",
+                linkedin: "#",
+                image: ""
             },
             {
                 name: "Rajat Mathew",
                 role: "CTO",
                 email: "#",
-                letter: "R"
+                letter: "R",
+                bio: "",
+                linkedin: "#",
+                image: ""
             },
             {
                 name: "Sreelakshnmi Madhu",
                 role: "COO",
                 email: "#",
-                letter: "S"
+                letter: "S",
+                bio: "",
+                linkedin: "#",
+                image: ""
             },
             {
                 name: "Rahul  Surendran",
                 role: "CCO",
                 email: "#",
-                letter: "R"
+                letter: "R",
+                bio: "",
+                linkedin: "#",
+                image: ""
             },
             {
                 name: "Abhijith E S",
                 role: "CFO",
                 email: "#",
-                letter: "A"
+                letter: "A",
+                bio: "",
+                linkedin: "#",
+                image: ""
             },
             {
                 name: "Jeiddon  Grill Shajan",
                 role: "CMO",
                 email: "#",
-                letter: "J"
+                letter: "J",
+                bio: "",
+                linkedin: "#",
+                image: ""
             },
             {
                 name: "Jerin Jacob",
                 role: "CSO",
                 email: "#",
-                letter: "J"
+                letter: "J",
+                bio: "",
+                linkedin: "#",
+                image: ""
             },
 
         ],
@@ -523,8 +552,8 @@ export const execomHistory: ExecomData[] = [
             {
                 title: "Technical Team",
                 members: [
-                    { name: "Rajath Sandeep", role: "Technical Officer" },
-                    { name: "Jovit Mathew", role: "Technical Officer" },
+                    { name: "Rajath Sandeep", role: "Technical Officer", image:"",  linkedin:"#" },
+                    { name: "Jovit Mathew", role: "Technical Officer", image:"",linkedin:"#" },
                 ]
             },
             {
@@ -545,17 +574,17 @@ export const execomHistory: ExecomData[] = [
             {
                 title: "Skills Team",
                 members: [
-                    { name: "Devanandha S", role: "Skills Officer" },
-                    { name: "Jesvin C Jess", role: "Skills Officer"},
-                    { name: "Melissa Manoj Thondoli", role: "Skills Officer"},
+                    { name: "Devanandha S", role: "Skills Officer", image:"",linkedin:"#" },
+                    { name: "Jesvin C Jess", role: "Skills Officer", image:"",linkedin:"#" },
+                    { name: "Melissa Manoj Thondoli", role: "Skills Officer", image:"",linkedin:"#" },
                 ]
             },
             {
                 title: "Marketing Team",
                 members: [
-                    { name: "Vishnu CR", role: "Marketing Officer" },
-                    { name: "Nikhil Jose", role: "Marketing Officer" },
-                    { name: "Delna K Jose", role: "Marketing Officer" },
+                    { name: "Vishnu CR", role: "Marketing Officer", image:"",linkedin:"#" },
+                    { name: "Nikhil Jose", role: "Marketing Officer", image:"",linkedin:"#" },
+                    { name: "Delna K Jose", role: "Marketing Officer", image:"",linkedin:"#" },
                 ]
             },
             {
@@ -567,7 +596,7 @@ export const execomHistory: ExecomData[] = [
             {
                 title: "Fiance Team",
                 members: [
-                    { name: "Deena Maria jimson", role: "Finance Officer" },
+                    { name: "Deena Maria jimson", role: "Finance Officer", image:"",linkedin:"#" },
                 ]
             },
         ]
