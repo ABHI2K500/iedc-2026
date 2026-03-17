@@ -280,7 +280,7 @@ export const execomHistory: ExecomData[] = [
             {
                 name: "Jibin Gigi",
                 role: "CSO",
-                image: "/execom/24-25/AYUSH_CMO.webp",
+                image: "/execom/24-25/jibin.png",
                 linkedin: "https://www.linkedin.com/in/404-jibin-gigi/",
                 email: "#",
                 letter: "J",
