@@ -84,7 +84,7 @@ export default function ExecomPage() {
                                         src={lead.image}
                                         alt={lead.name}
                                         fill
-                                        className="object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
+                                        className="object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out bg-neutral-800"
                                         sizes="(max-width: 768px) 100vw, 25vw"
                                         priority={index < 2}
                                     />
@@ -205,7 +205,7 @@ export default function ExecomPage() {
                                             src={selectedMember.image}
                                             alt={selectedMember.name}
                                             fill
-                                            className="object-cover"
+                                            className="object-cover bg-neutral-800"
                                             sizes="(max-width: 768px) 100vw, 450px"
                                         />
                                     ) : (
@@ -266,7 +266,7 @@ function TeamMemberCard({ member, index, onSelect }: { member: any, index: numbe
                         src={member.image}
                         alt={member.name}
                         fill
-                        className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                        className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 bg-neutral-800"
                         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
                     />
                 ) : (
